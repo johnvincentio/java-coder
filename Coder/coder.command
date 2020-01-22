@@ -1,13 +1,11 @@
 #!/bin/sh
 #
-# script to run java app grepdirGui
+# script to run java Coder
 #
-DEV_HOME=/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-grep/grep
+DEV_HOME=/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-coder/Coder
 #
 cd $DEV_HOME
 #
-MYCP=$DEV_HOME/classes:$DEV_HOME/Jars/log4j-1.2.13.jar
+MYCP=$DEV_HOME/classes
 #
-MY_FILE=/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-grep/grep/grepdirgui.properties
-#
-java -cp $MYCP io.johnvincent.grepgui.GrepdirGui $MY_FILE
+java -cp $MYCP io.johnvincent.appcoder.App

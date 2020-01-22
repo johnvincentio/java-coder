@@ -1,5 +1,33 @@
 
-# Grep
+# Usage
+
+```
+./coder.command
+```
+
+See `Archive/coder-maybe-old/data/*.java` for some work files.
+
+For example, paste in left pane
+
+```
+public class MemberDataAccountItemInfo {
+	public static final String APPROVAL_FLAG_APPROVED = "A";
+	public static final String APPROVAL_FLAG_PENDING = "P";
+	public static final String APPROVAL_FLAG_DELETED = "D";
+
+	private long memberid;
+	private long accountid;
+	private String approved;
+	private long approverid;
+```
+
+Code, ArrayList, Bean
+
+or
+
+Code, ArrayList, Collection
+
+# Coder
 
 At Github, create repository `java-coder`
 
@@ -68,4 +96,4 @@ In Finder
 * rename to `coder.command`
 * move alias to `/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/JVTools/`
 
-# END
+
