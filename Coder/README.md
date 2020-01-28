@@ -1,7 +1,12 @@
 
 # Usage
 
+`java.coder`
+
+or
+
 ```
+cd /Users/jv/Desktop/MyDevelopment/github/java/Utilities/Coder
 ./coder.command
 ```
 
@@ -87,13 +92,39 @@ Copy code to this package and change package names.
 
 Add `/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-coder/Coder/coder.command`
 
-## Create Alias
+## Create Symbolic Link
 
-In Finder
+```
+ln -s /Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-coder/Coder/coder.command /Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/unix-scripts/bin/java-coder
+```
 
-* select `coder.command`
-* right click, Make Alias
-* rename to `coder.command`
-* move alias to `/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/JVTools/`
+## Save java-coder as a Mac App
 
+Execute from Finder
 
+* Go, Applications
+* Execute: Automator (or Automator.app)
+
+Select
+
+* Quick Action, or
+* Application
+
+and then select `Choose`
+
+From the middle pane, double click Run Shell Script
+
+Shell: /bin/bash
+Pass input: as arguments
+
+```
+/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/unix-scripts/bin/java-coder
+```
+
+To save: 
+
+* File, Save:
+* Save as: java-coder
+* Where: Applications
+
+saves java-coder.app in Applications.
