@@ -8,4 +8,4 @@ cd $DEV_HOME
 #
 MYCP=$DEV_HOME/classes
 #
-java -cp $MYCP io.johnvincent.appcoder.App
+java -cp $MYCP -Xdock:name="Application Coder" io.johnvincent.appcoder.App
